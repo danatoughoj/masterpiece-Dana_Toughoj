@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  justify-content: center;
+}
+
+/* body {
+  background: #222831;
+  color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Play", sans-serif;
+  text-align: center;
+  min-width: fit-content;
+} */
+
+body {
+  color: #66615b;
+  font-size: 14px;
+  font-family: 'Muli', Arial, sans-serif;
+}
+
+@media (min-width:1024px) and  (max-width: 1366px) {
+  .App{
+    display: flex;
+    justify-content: flex-start;
+  }
+}
